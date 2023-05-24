@@ -15,7 +15,7 @@ import io.github.bucket4j.Bucket;
 import io.github.bucket4j.Bucket4j;
 import io.github.bucket4j.Refill;
 
-/*
+
 public class ControllerForPost {
 	
 	private final Bucket bucket;
@@ -38,4 +38,4 @@ public class ControllerForPost {
 	    System.out.println("number of hits exceeds");
 	    return ResponseEntity.status(HttpStatus.TOO_MANY_REQUESTS).body("Rate limit Exceed");
 	    }
-}*/
+}
